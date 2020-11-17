@@ -1,0 +1,54 @@
+.breadcrumb-item+.breadcrumb-item::before{
+	content: ">";
+}
+.my_img_1{
+	overflow:hidden;
+}
+.my_img_1>img{
+	transition:1s;
+}
+.my_img_1>img:hover{
+	transform:scale(1.1);
+}
+.my_imgs{
+	width: 20%;
+}
+.my_imgs:hover{
+	border: 1px solid #ddd;
+	margin-left:1px ;
+	margin-top:1px ;
+}
+.my_input_2{
+	    /* width: 5%;
+		border: 0;
+		outline: 0;
+		text-align:center;
+		font-size:0.8rem; */
+		display: inline-block;
+		    width: 36px;
+		    text-align: center;
+		    border: 1px solid #ddd;
+		    vertical-align: middle;
+		    padding: 8px 0px;
+		    font-size: 14px;
+		    cursor: pointer;
+		    outline: none;
+	}
+.my_btn2{
+		/* width: 1.5rem;
+		height: 1.5rem;
+		border: 0;
+		outline: 0;
+		font-size: 24px;
+		padding:0;
+		line-height: 24px;
+		color: #000000; */
+		display: inline-block;
+		    width: 36px;
+		    text-align: center;
+		    border: 1px solid #ddd;
+		    vertical-align: middle;
+		    padding: 8px 0px;
+		    font-size: 14px;
+		    cursor: pointer;
+		    outline: none;}

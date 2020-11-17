@@ -1,0 +1,13 @@
+//指令
+$s:40;
+div{
+	@if($s>90){content: "大G";}
+	@else if($s>80){content: "GTR";}
+	@else if($s>70){content: "霸道";}
+	@else if($s>60){content: "丰田";}
+	@else{content: "断绝父子关系";}
+}
+p{
+	width:round(4.5);
+	height: ceil(4.1px);
+}

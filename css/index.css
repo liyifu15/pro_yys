@@ -1,0 +1,44 @@
+.carousel-indicators li{
+	width:0.8rem;
+	height:0.8rem;
+	border-radius:50%;
+	background-color: #fff;
+	margin-left:0.3rem;
+	margin-right: 0.3rem;
+}
+.carousel-indicators li.active{
+	background-color: #0aa1ed;
+} 
+.carousel-control-next,
+.carousel-control-prev{
+	width:4%;
+	height:20%;
+	top:40%;
+	border-radius:0.25rem;
+	background-color: #aaa;
+}
+.carousel-control-prev{left:0.3rem;}
+.carousel-control-next{right:0.3rem;}
+.floor_top{
+	font-size:24px;
+	font-weight:bold;
+	border-bottom:2px solid #d9d9d9;
+	padding-bottom:4px;
+	margin-bottom:10px;
+	color:#666;
+}
+body{
+	font:12px "simhei",Arial,Helvetica,sans-serif;
+}
+.top_height{
+	height:377px;
+	background-color: #999;
+}
+.bottom_height{
+	height:233px;
+	background-color: #999;
+}
+*{  margin:0;
+	padding:0;
+	box-sizing:border-box;
+}

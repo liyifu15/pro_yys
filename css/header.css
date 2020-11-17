@@ -1,0 +1,2 @@
+.my_border_color{border-color:#0aa1ed}
+.breadcrumb-item+.breadcrumb-item::before{content:"|";}
